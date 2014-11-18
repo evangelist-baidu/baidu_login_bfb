@@ -3,6 +3,7 @@
 ## Demo说明
 
 Demo中包括百度轻应用登录和百度钱包支付两个功能。
+其中百度钱包支付部分仅作为演示[Blend.mbaas.pay](http://cloudaplus.duapp.com/blendapi/cloud/api_document#轻支付)使用方法，对于百度钱包如何查询订单，验证参数等，需要联系百度钱包的技术支持。
 
 ## 线上体验地址
 <http://lightloginbfb.duapp.com>
