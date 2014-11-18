@@ -232,7 +232,7 @@ $order_url = $bfb_sdk->create_baifubao_pay_order_url($params, sp_conf::BFB_PAY_W
 <body>
 	<div id="wrapper">
 		<div id="common_widget_nav" class="common-widget-nav -shadow-card -bg-normal -vcenter">
-			<a jsaction="back" class="btn -ft-secondary" href="index.html"> <i class="icon -back-arrow"></i>
+			<a jsaction="back" class="btn -ft-secondary" href="index.php"> <i class="icon -back-arrow"></i>
 			</a>
 			<div jsaction="click_title" class="title -ft-large -ft-secondary order-title">
 				<span>
