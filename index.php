@@ -17,8 +17,7 @@
     <script src="http://cdn.bootcss.com/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
 
     //注意 应用首页代码,从该轻应用-》状态信息-》编辑中获取，用于提交轻应用时验证用。
-    <script type="text/javascript" name="baidu-tc-cerfication" src="http://apps.bdimg.com/cloudaapi/lightapp.js#cc8a2f70825d861e639d4dce8dc9b358"></script>
-    <script type="text/javascript">window.bd && bd._qdc && bd._qdc.init({app_id: '1ed8272dc0974e33002dcb91'});</script>
+    <script type="text/javascript" name="baidu-tc-cerfication" data-appid="2546793" src="http://apps.bdimg.com/cloudaapi/lightapp.js"></script>
 
     <style>
         #shopmenu_list {
@@ -158,12 +157,14 @@
         module: ["account", "pay"]
     });
 
+
+
     //登陆成功后的处理函数
     function onSuccess() {
         //登录成功后关闭登录的浮层
         clouda.mbaas.account.closeLoginDialog();
 
-        //将菜品信息写入cookie
+        //将菜品信息写入cooki
         writeCookie();
         window.location.href = "order_confirm.php";
     }
